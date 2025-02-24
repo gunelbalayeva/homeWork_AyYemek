@@ -13,6 +13,8 @@
 		CE694A502D660CC70081D876 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE694A4E2D660CC70081D876 /* Main.storyboard */; };
 		CE694A522D660CC90081D876 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE694A512D660CC90081D876 /* Assets.xcassets */; };
 		CE694A552D660CC90081D876 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE694A532D660CC90081D876 /* LaunchScreen.storyboard */; };
+		CE694A5D2D660CF10081D876 /* PlanModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE694A5C2D660CF10081D876 /* PlanModel.swift */; };
+		CE694A5F2D660D040081D876 /* PlanViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE694A5E2D660D040081D876 /* PlanViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		CE694A512D660CC90081D876 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE694A542D660CC90081D876 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE694A562D660CC90081D876 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE694A5C2D660CF10081D876 /* PlanModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanModel.swift; sourceTree = "<group>"; };
+		CE694A5E2D660D040081D876 /* PlanViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				CE694A512D660CC90081D876 /* Assets.xcassets */,
 				CE694A532D660CC90081D876 /* LaunchScreen.storyboard */,
 				CE694A562D660CC90081D876 /* Info.plist */,
+				CE694A5C2D660CF10081D876 /* PlanModel.swift */,
+				CE694A5E2D660D040081D876 /* PlanViewCell.swift */,
 			);
 			path = homeWork_ayyemek;
 			sourceTree = "<group>";
@@ -140,6 +146,8 @@
 			files = (
 				CE694A4D2D660CC70081D876 /* ViewController.swift in Sources */,
 				CE694A492D660CC70081D876 /* AppDelegate.swift in Sources */,
+				CE694A5F2D660D040081D876 /* PlanViewCell.swift in Sources */,
+				CE694A5D2D660CF10081D876 /* PlanModel.swift in Sources */,
 				CE694A4B2D660CC70081D876 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

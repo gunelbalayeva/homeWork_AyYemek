@@ -6,3 +6,11 @@
 //
 
 import Foundation
+import UIKit
+struct PlanModel {
+    var titleName: String
+    var subtitleName: String
+    var imageName: String
+}
+
+
